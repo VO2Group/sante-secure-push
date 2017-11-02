@@ -2,7 +2,7 @@ from socketIO_client_nexus import SocketIO, BaseNamespace
 from base64 import b64encode
 
 lgo = 1
-pharma = 42
+pharma = 43
 
 def on_curl(*args):
     print 'on_curl {}'.format(args)
